@@ -1,0 +1,109 @@
+<!-- Doctype tells the browswer hos this thing should process -->
+		<!-- meta tags are for other systems to now stuff about your page -->
+	<head>
+		<meta name="name" content="content">
+		<style type="text/css" media="screen">
+			#body{
+				/* and you can do stuff to the body id */
+			}
+			body{
+				background-color: black;
+				color: while;
+			}
+			.registration{
+				color: red;
+			}
+		</style>
+		<!-- remember, it is much better to create a separate style sheet and link to it. -->
+		<link rel="stylesheet" type="text/css" href="">
+	</head> 
+	<!-- Is the stuff the user is supposed to see -->
+	<!-- Links, images, text, etc. -->
+	<body id="body" my-favorite-team="Atl United">
+		<!-- if it's green., it's an attribute -->
+		<!-- an attribute is like an HTML variable. Not comlicated. -->
+		<!-- you can make up attributes -->
+		<strong>This is a semantic tag</strong>
+		<nav>Nav tag in here</nav>
+		<div>
+			A structural tag defines how the HTML is built	
+		</div>
+		<p>
+			
+		</p>
+		<sup>Superscript tag</sup>
+		<sub>Subscript tag</sub>
+		<abbr>This is an abbr tag</abbr>
+		<!-- tags are important.  the higher the number, the more important for seo -->
+		<h1>An h1 tag</h1>
+		<h2>An h2 tag</h2>
+		<h3>An h3 tag</h3>
+		<h4>An h4 tag</h4>
+		<h5>An h5 tag</h5>
+		<h6>An h6 tag</h6>
+
+		<blockquote cite="http://example.com/facts">
+			<p>
+				How Terrible is wisdom when it brings no profit to the wise
+				<!-- break tag makes a new line -->
+				<br />
+				<!-- Hr tag is same as br with a big long line -->
+				<!-- horizontal rule -->
+				<hr />
+				<cite>Sophocles</cite>		
+			</p>
+		</blockquote>
+		<ul>
+			<li>Jennifer</li>
+			<li>Nikolas</li>
+			<li>Zach</li>
+			<li>Back Row
+				<ul>
+					<li>Jong</li>
+					<li>Binh</li>
+				</ul>
+				
+			</li>	
+		</ul>
+		<ol>
+			<li>Taylor</li>
+			<li>Seif</li>
+			<li>Chris</li>
+			<li>Jason</li>
+		</ol>
+		<a href="https://google.com">Link to Google</a>
+		<a href="another-page">Local link</a>
+		<!-- a href tel links a phone number.  good for apps -->
+		<a href="tel:15555555555">Call a bogus</a>
+		<a href="mailto:me@imawesome.com">email link!</a>
+		<!-- can use copy image address to find src of any image -->
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/John_Coltrane_1963.jpg/1200px-John_Coltrane_1963.jpg" alt="John Coltrane">
+		<!-- a note about formatting - avoid using fixed height, align, and width because your page needs to look good on every device.
+		this is what bootstrap is good for. -->
+		<!-- everything is either a block level element or an inline element -->
+		<table>
+			<caption>
+				<thead>
+					<tr>
+						<th>header</th>
+					</tr>	
+				</thead>
+				<tbody>
+					<tr>body</tr>
+				</tbody>
+			</caption>
+		</table>
+
+		<span class="test">A span tag</span>
+		<!-- user form sumbit data to server and pass it around -->
+		<form action="basics_submit" method="get" accept-charset="utf-8">
+			basics_submit
+			get
+			<input type="text">
+			<input type="password">
+			<input type="email">
+			<input type="" name="">
+		</form>
+		the point of css is to get styling code out of the content (html) file and create resuable code accross plateforms and webpages
+	</body>
+</html>
